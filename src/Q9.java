@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class Q9 {
     public static void main(String[] args) {
-        System.out.println("Escreva um programa que leia 100 números e exiba na tela a média, o maior, o menor, o percentual de\n" +
-                "números ímpares e o percentual de múltiplos de 3.");
+        System.out.println(
+                "Escreva um programa que leia 100 números e exiba na tela a média, o maior, o menor, o percentual de\n"
+                        +
+                        "números ímpares e o percentual de múltiplos de 3.");
         int[] num = new int[100];
         int aux = 0, aux2 = 0;
         float calcMedia = 0, quntImpar = 0, quntMult3 = 0;
@@ -41,5 +43,6 @@ public class Q9 {
         System.out.println("Menor: " + aux2);
         System.out.println("Porcentagem de impares: " + quntImpar);
         System.out.println("Porcentagem de multiplos de 3: " + quntMult3);
+        sc.close();
     }
 }

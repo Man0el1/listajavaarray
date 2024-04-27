@@ -1,6 +1,6 @@
 public class Q1 {
     public static void main(String[] args) {
-        int[] num = new int[]{5, 10, 7, 6, 16, 3, 9, 2, 2, 1};
+        int[] num = new int[] { 5, 10, 7, 6, 16, 3, 9, 2, 2, 1 };
         int[] resp = new int[7];
         char letra;
         int x = 1, y = 3;
@@ -31,7 +31,7 @@ public class Q1 {
         }
         for (int i = 0; i < resp.length; i++) {
             letra = (char) ('A' + i);
-            System.out.printf("%c) ",letra);
+            System.out.printf("%c) ", letra);
             System.out.print(resp[i] + " ");
         }
     }

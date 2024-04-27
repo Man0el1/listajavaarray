@@ -17,5 +17,6 @@ public class Q2 {
                 System.out.print(num[i] + " ");
             }
         }
+        sc.close();
     }
 }
